@@ -12,8 +12,10 @@
 
 1. 실제 상호, 상담 채널, 운영 정보, 시술 범위를 확정하고 표시 문구를 교체하세요. 지금 시안에는 가상의 주소, 후기, 가격, 자격, 전화번호를 넣지 않았습니다.
 2. 배포 주소를 정한 뒤 프로젝트 루트에서 `SITE_URL=https://실제-도메인 python3 build.py`를 실행하세요. 이 명령이 모든 페이지의 canonical, Open Graph, 홈의 ItemList, sitemap, robots URL을 동일한 실제 주소로 생성합니다. `https://example.com`이 남은 상태로 배포하면 안 됩니다.
-3. GitHub에 이 폴더의 내용물을 올리고 Cloudflare Pages에서 해당 저장소를 연결합니다. Framework preset은 None, Build command는 `SITE_URL=https://실제-도메인 python3 build.py`, Build output directory는 `.`입니다. Pages의 환경 변수에도 `SITE_URL`을 설정할 수 있습니다. 커스텀 도메인을 연결하거나 Pages 주소가 바뀌면 다시 빌드하세요.
+3. ZIP을 풀었을 때 **최상단에 `index.html`, `rss.xml`, `llms.txt`, `assets/`가 바로 보여야 합니다.** 이 파일들을 GitHub 저장소 루트에 올리고 Cloudflare Pages에서 해당 저장소를 연결합니다. Framework preset은 None, Build command는 `SITE_URL=https://실제-도메인 python3 build.py`, Build output directory는 `.`입니다. `SITE_URL`을 Pages 환경 변수로 지정했다면 Build command는 `python3 build.py`로 설정해도 됩니다. 커스텀 도메인을 연결하거나 Pages 주소가 바뀌면 다시 빌드하세요.
 4. 실제 시술 서비스의 의료·광고 관련 문구와 사업자 정보는 운영자가 확인한 사실로 교체하세요.
+
+배포 후 `https://실제-도메인/rss.xml`과 `https://실제-도메인/llms.txt`를 직접 열어 확인하세요. GitHub 저장소에 `daejeon-brow-site/` 폴더째 올렸다면 Build output directory를 `daejeon-brow-site`로 바꾸거나, 폴더 안의 파일을 저장소 루트로 이동해야 합니다. `SITE_URL`의 값이 잘못돼도 XML 파일의 링크가 잘못될 뿐, `/rss.xml` 자체의 404 원인은 아닙니다.
 
 ## 캐러셀 구현
 
