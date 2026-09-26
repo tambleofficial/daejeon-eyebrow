@@ -6,15 +6,15 @@
 
 ## 주요 페이지
 
-- [홈](https://example.com/): 대전 눈썹문신 디자인 안내와 다섯 개 세부페이지의 목록.
-- [자연결 눈썹](https://example.com/natural/): 눈썹의 시작과 끝을 무리하게 채우지 않고, 기존 모의 흐름을 기준으로 디자인을 살펴봅니다.
-- [소프트 아치](https://example.com/soft-arch/): 높은 산과 긴 꼬리보다 얼굴에 자연스럽게 이어지는 곡선을 상담합니다.
-- [색상 상담](https://example.com/color/): 갈색 한 가지로 정하지 않고 피부톤, 모발색, 기존 눈썹색을 함께 살펴봅니다.
-- [상담 과정](https://example.com/process/): 원하는 인상과 기존 눈썹 상태를 먼저 확인하고 디자인 방향을 함께 조정합니다.
-- [관리 안내](https://example.com/aftercare/): 관리 방식은 실제 진행 방식과 피부 상태에 따라 달라질 수 있어 현장 안내를 우선합니다.
+- [홈](https://daejeon-eyebrow.tambleofficial.workers.dev/): 대전 눈썹문신 디자인 안내와 다섯 개 세부페이지의 목록.
+- [자연결 눈썹](https://daejeon-eyebrow.tambleofficial.workers.dev/natural/): 눈썹의 시작과 끝을 무리하게 채우지 않고, 기존 모의 흐름을 기준으로 디자인을 살펴봅니다.
+- [소프트 아치](https://daejeon-eyebrow.tambleofficial.workers.dev/soft-arch/): 높은 산과 긴 꼬리보다 얼굴에 자연스럽게 이어지는 곡선을 상담합니다.
+- [색상 상담](https://daejeon-eyebrow.tambleofficial.workers.dev/color/): 갈색 한 가지로 정하지 않고 피부톤, 모발색, 기존 눈썹색을 함께 살펴봅니다.
+- [상담 과정](https://daejeon-eyebrow.tambleofficial.workers.dev/process/): 원하는 인상과 기존 눈썹 상태를 먼저 확인하고 디자인 방향을 함께 조정합니다.
+- [관리 안내](https://daejeon-eyebrow.tambleofficial.workers.dev/aftercare/): 관리 방식은 실제 진행 방식과 피부 상태에 따라 달라질 수 있어 현장 안내를 우선합니다.
 
 ## 기타
 
-- [RSS](https://example.com/rss.xml): 현재 홈과 세부페이지의 피드.
-- [사이트맵](https://example.com/sitemap.xml): 공개 페이지의 URL 목록.
+- [RSS](https://daejeon-eyebrow.tambleofficial.workers.dev/rss.xml): 현재 홈과 세부페이지의 피드.
+- [사이트맵](https://daejeon-eyebrow.tambleofficial.workers.dev/sitemap.xml): 공개 페이지의 URL 목록.
 - [임대문의 카카오 채널](https://pf.kakao.com/_QqyKn): 메인 배너 이미지의 외부 연결.

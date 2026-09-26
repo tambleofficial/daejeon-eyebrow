@@ -6,7 +6,7 @@ import os
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-ORIGIN = os.environ.get('SITE_URL', 'https://example.com').rstrip('/')
+ORIGIN = os.environ.get('SITE_URL', 'https://daejeon-eyebrow.tambleofficial.workers.dev').rstrip('/')
 BRAND = '결담 브로우'
 ITEMS = [
     ('natural', '자연결 눈썹', '기존 눈썹결을 살펴 빈 부분을 정리하는 방향', 'brow.webp', '눈썹의 시작과 끝을 무리하게 채우지 않고, 기존 모의 흐름을 기준으로 디자인을 살펴봅니다.'),
